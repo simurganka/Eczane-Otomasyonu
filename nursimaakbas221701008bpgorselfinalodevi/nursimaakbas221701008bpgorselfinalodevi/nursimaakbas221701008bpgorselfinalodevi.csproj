@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B7088284-BC8D-4E5D-8D93-46D401B78A69}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>nursimaakbas221701008bpgorselfinalodevi</RootNamespace>
+    <AssemblyName>nursimaakbas221701008bpgorselfinalodevi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EczaneDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EczaneDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2grf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2grf.Designer.cs">
+      <DependentUpon>Form2grf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIlacbilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIlacbilgi.Designer.cs">
+      <DependentUpon>frmIlacbilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmreceteturbilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmreceteturbilgi.Designer.cs">
+      <DependentUpon>frmreceteturbilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hastagiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hastagiris.Designer.cs">
+      <DependentUpon>hastagiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hastakayıtkontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hastakayıtkontrol.Designer.cs">
+      <DependentUpon>hastakayıtkontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ilacdisiurunsatisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ilacdisiurunsatisi.Designer.cs">
+      <DependentUpon>Ilacdisiurunsatisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="stokkontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stokkontrolu.Designer.cs">
+      <DependentUpon>stokkontrolu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2grf.resx">
+      <DependentUpon>Form2grf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIlacbilgi.resx">
+      <DependentUpon>frmIlacbilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmreceteturbilgi.resx">
+      <DependentUpon>frmreceteturbilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hastagiris.resx">
+      <DependentUpon>hastagiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hastakayıtkontrol.resx">
+      <DependentUpon>hastakayıtkontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ilacdisiurunsatisi.resx">
+      <DependentUpon>Ilacdisiurunsatisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="stokkontrolu.resx">
+      <DependentUpon>stokkontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="EczaneDataSet1.xsc">
+      <DependentUpon>EczaneDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EczaneDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EczaneDataSet1.xss">
+      <DependentUpon>EczaneDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hand With a Pill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syringe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Protection Mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bandage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hand With a Pill1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syringe2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pill2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bandage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pill21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Protection 2Mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bandage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pill22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctors 2Bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart with 2Pulse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart with Pulse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart with Pulse1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pill23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pharma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syringe21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctors 2Bag1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shake Gently.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\World Health Organization.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syringe22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart with 2Pulse1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\World Health Organization1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bandage3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Investment Portfolio.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

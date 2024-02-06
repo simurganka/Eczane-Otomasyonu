@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Beyaz Reçete Nedir?
+Beyaz Reçete, genellikle doktorlar tarafından hastalarına yazılan ve eczanelerden ilaç almak için kullanılan resmi bir belgedir. 
+Bu reçeteler genellikle beyaz renkte basılır, bu nedenle "beyaz reçete" terimi yaygın olarak kullanılır. Beyaz reçeteler, 
+hastaların spesifik bir tedaviyi alabilmeleri için doktor tarafından verilen talimatları içerir.
+
+Beyaz Reçetenin İçeriği
+Bir beyaz reçete, aşağıdaki temel bilgileri içerir:
+
+Hasta Bilgileri:
+
+Hastanın adı, soyadı ve doğum tarihi gibi kimlik bilgilerini içerir.
+Doktor Bilgileri:
+
+İlaç yazan doktorun adı, soyadı ve hastane ya da klinik bilgilerini içerir.
+İlaç Bilgileri:
+
+İlaç adı ve dozu gibi, hastanın kullanması gereken ilaç hakkında detaylı bilgiler içerir.
+Dozaj ve Kullanım Talimatları:
+
+Hangi dozda ve ne sıklıkta kullanılması gerektiği gibi kullanım talimatlarını içerir.
+İlaç Miktarı:
+
+Kaç gün boyunca kullanılması gerektiği ve toplam ilaç miktarını içerir.
+Doktorun İmzası ve Tarih:
+
+Doktorun reçeteyi onaylamak adına imzası ve reçetenin yazıldığı tarih.
+Beyaz Reçete Nasıl Kullanılır?
+Hasta, doktordan reçetesini alır.
+Eczaneye gider ve reçetesini teslim eder.
+Eczacı, reçeteye uygun ilaçları hazırlar ve hastaya verir.
+Hasta, reçeteye yazılan talimatlara göre ilacını kullanır.
+Önemli Notlar
+Doktorun Talimatlarına Uyun:
+Hasta, doktorunun reçetede belirttiği talimatlara tam olarak uymalıdır. Doz aşımı veya eksik kullanım, tedavi sürecini etkileyebilir.
+
+Eczacıya Sorular Sorun:
+Eczacınıza, aldığınız ilaçlarla ilgili herhangi bir şüpheniz veya sorunuz olduğunda sormaktan çekinmeyin.
+
+Reçeteyi Saklayın:
+Reçeteler, gelecekteki tıbbi ihtiyaçlarınız için önemlidir. Onları saklamak ve düzenlemek, geçmiş tedavileri hatırlamanıza yardımcı olabilir.
+
+Beyaz reçeteler, güvenli ve etkili bir tedavi sürecinin temelini oluşturur. Hastaların ve sağlık profesyonellerinin 
+bu reçetelere uygun şekilde davranması, tedavinin başarılı olmasına katkı sağlar. 
+Unutulmamalıdır ki, herhangi bir sağlık sorununda veya ilaç kullanımında doktorunuzla iletişim kurmak en doğru yaklaşımdır.
+
+
+
+
+</value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>Yeşil Reçete Nedir?
+Yeşil Reçete, doktorlar tarafından özellikle belirli ilaçları, özellikle bazı psikotropik ve bağımlılık yapıcı ilaçları, 
+hastalara yazmak için kullanılan resmi bir belgedir. Bu reçeteler genellikle yeşil renkte basılır, bu nedenle "yeşil reçete" 
+terimi yaygın olarak kullanılır. Yeşil reçeteler, ilaçların daha sıkı bir kontrol altında tutulmasını sağlamak ve kötüye kullanımını önlemek amacıyla kullanılır.
+
+Yeşil Reçetenin İçeriği
+Bir yeşil reçete, aşağıdaki temel bilgileri içerir:
+
+Hasta Bilgileri:
+
+Hastanın adı, soyadı ve doğum tarihi gibi kimlik bilgilerini içerir.
+Doktor Bilgileri:
+
+İlaç yazan doktorun adı, soyadı ve hastane ya da klinik bilgilerini içerir.
+İlaç Bilgileri:
+
+İlaç adı, dozu ve formu gibi, hastanın kullanması gereken ilaç hakkında detaylı bilgiler içerir.
+Dozaj ve Kullanım Talimatları:
+
+Hangi dozda ve ne sıklıkta kullanılması gerektiği gibi kullanım talimatlarını içerir.
+Reçete Tarihi ve Geçerlilik Süresi:
+
+Reçetenin yazıldığı tarih ve geçerlilik süresi belirtilir. Yeşil reçetelerin genellikle daha kısa bir geçerlilik süresi vardır.
+Doktorun İmzası ve Nüsha Sayısı:
+
+Doktorun reçeteyi onaylamak adına imzası ve bir veya daha fazla nüsha sayısı içerir.
+Yeşil Reçete ile İlaç Alma
+Hasta, doktordan yeşil reçetesini alır.
+Eczaneye gider ve reçetesini teslim eder.
+Eczacı, reçeteye yazılan ilacı hazırlar ve hastaya verir.
+Hasta, reçetede belirtilen talimatlara göre ilacını kullanır.
+Önemli Notlar
+Doz Aşımından Kaçının:
+Yeşil reçete ile yazılan ilaçların kullanımında doz aşımından kaçınılmalıdır. Doktorun belirttiği dozajlara sadık kalınmalıdır.
+
+Reçete Tarihi ve Geçerlilik Süresine Dikkat Edin:
+Yeşil reçetelerin tarihleri ve geçerlilik süreleri önemlidir. Geçmiş tarihli veya süresi geçmiş reçetelerle ilaç almak uygun değildir.
+
+Doktorun Talimatlarına Uyun:
+Hasta, doktorunun reçetede belirttiği talimatlara tam olarak uymalıdır. İlaç kullanımında herhangi bir şüphe durumunda doktora başvurulmalıdır.
+
+Yeşil reçeteler, kontrollü ilaçların kullanımını düzenlemek ve kötüye kullanımını önlemek adına önemli bir araçtır. 
+Bu nedenle, hastaların ve sağlık profesyonellerinin bu reçetelere uygun şekilde davranması, güvenli ve etkili bir tedavi sürecini destekler. 
+Unutulmamalıdır ki, herhangi bir sağlık sorununda veya ilaç kullanımında doktorunuzla iletişim kurmak en doğru yaklaşımdır.</value>
+  </data>
+  <data name="textBox4.Text" xml:space="preserve">
+    <value>Turuncu Reçete Nedir?
+Turuncu Reçete, doktorlar tarafından yazılan ve özellikle psikiyatrik hastalıkların tedavisi için kullanılan belirli ilaçları içeren resmi bir belgedir. 
+Bu reçeteler genellikle turuncu renkte basılır, bu nedenle "turuncu reçete" terimi yaygın olarak kullanılır. 
+Turuncu reçeteler, hastaların belirli psikiyatrik ilaçları güvenli ve kontrollü bir şekilde kullanmalarını sağlamak amacıyla kullanılır.
+
+Turuncu Reçetenin İçeriği
+Bir turuncu reçete, aşağıdaki temel bilgileri içerir:
+
+Hasta Bilgileri:
+
+Hastanın adı, soyadı ve doğum tarihi gibi kimlik bilgilerini içerir.
+Doktor Bilgileri:
+
+İlaç yazan doktorun adı, soyadı ve hastane ya da klinik bilgilerini içerir.
+İlaç Bilgileri:
+
+İlaç adı, dozu ve formu gibi, hastanın kullanması gereken psikiyatrik ilaç hakkında detaylı bilgiler içerir.
+Dozaj ve Kullanım Talimatları:
+
+Hangi dozda ve ne sıklıkta kullanılması gerektiği gibi kullanım talimatlarını içerir.
+Reçete Tarihi ve Geçerlilik Süresi:
+
+Reçetenin yazıldığı tarih ve geçerlilik süresi belirtilir. Turuncu reçetelerin genellikle daha kısa bir geçerlilik süresi vardır.
+Doktorun İmzası ve Nüsha Sayısı:
+
+Doktorun reçeteyi onaylamak adına imzası ve bir veya daha fazla nüsha sayısı içerir.
+Turuncu Reçete ile İlaç Alma
+Hasta, doktordan turuncu reçetesini alır.
+Eczaneye gider ve reçetesini teslim eder.
+Eczacı, reçeteye yazılan ilacı hazırlar ve hastaya verir.
+Hasta, reçetede belirtilen talimatlara göre ilacını kullanır.
+Önemli Notlar
+Psikiyatrik İlaç Kullanımının Kontrolü:
+Turuncu reçeteler genellikle psikiyatrik ilaçları içerdiğinden, bu ilaçların kullanımının düzenli olarak kontrol edilmesi önemlidir.
+
+Doktorun Talimatlarına Uyun:
+Hasta, doktorunun reçetede belirttiği talimatlara tam olarak uymalıdır. İlaç kullanımında herhangi bir şüphe durumunda doktora başvurulmalıdır.
+
+Geçerlilik Süresine Dikkat Edin:
+Turuncu reçetelerin tarihleri ve geçerlilik süreleri önemlidir. Geçmiş tarihli veya süresi geçmiş reçetelerle ilaç almak uygun değildir.
+
+Turuncu reçeteler, psikiyatrik ilaçların güvenli ve kontrollü bir şekilde kullanılmasını sağlamak amacıyla kullanılır. 
+Bu nedenle, hastaların ve sağlık profesyonellerinin bu reçetelere uygun şekilde davranması, güvenli ve etkili bir tedavi sürecini destekler.
+ Unutulmamalıdır ki, herhangi bir sağlık sorununda veya ilaç kullanımında doktorunuzla iletişim kurmak en doğru yaklaşımdır.</value>
+  </data>
+  <data name="textBox5.Text" xml:space="preserve">
+    <value>Mor Reçeteli İlaçlar ve Kullanımı
+Doktorlar tarafından belirli hastalıkların tedavisi için yazılan reçeteler, farklı renklerde olabilir ve her rengin belirli bir anlamı vardır. 
+Mor reçeteli ilaçlar da bu kategoride yer alır ve genellikle hematolojik hastalıkların tedavisi için kullanılır.
+
+Mor Reçeteli İlaçlar Nedir?
+Mor reçeteli ilaçlar, özellikle kan ürünleri ile ilgili ilaçları içerir. Bu ilaçlar, hematolojik hastalıklara sahip bireylerin kan ihtiyaçlarını 
+karşılamak amacıyla doktorlar tarafından reçete edilir. Mor reçeteli ilaçlar arasında şu örnekler bulunabilir:
+
+Albuman
+Anti-D Imm
+Biotest Human Albumin
+Hepagam B
+Pentaglobin
+Vigam Liquid
+Zenalb 20 Human Albumin
+Bu ilaçlar, genellikle kanın pıhtılaşma yeteneği, immunoglobulin düzeyleri veya diğer hematolojik parametrelerle ilgili sorunları düzeltmek veya tedavi etmek için kullanılır.
+
+Mor Reçeteli İlaçlar Kimlere Verilir?
+Mor reçeteli ilaçlar, hematolojik hastalıklara sahip olan bireylere verilir. Bu hastalıklar arasında kanın pıhtılaşmasıyla ilgili sorunlar, 
+immun yetmezlik durumları veya diğer kan hastalıkları yer alabilir. 
+Bu tür ilaçlar, genellikle pratisyen hekimler veya aile hekimleri tarafından reçete edilmez; uzman hekimler tarafından yazılır. 
+Ayrıca, mor reçeteli ilaçlar genellikle devlet tarafından karşılanır.
+
+Turuncu ve Mor Reçete Arasındaki Farklar
+Reçeteli ilaçlar, hastalıklara ve kullanım amaçlarına bağlı olarak farklı renklerde olabilir. 
+Mor reçeteli ilaçlar ile turuncu reçeteli ilaçlar arasındaki 
+farklar özellikle dozaj ve kullanım alanlarına dayanır. Mor reçeteler genellikle kan ürünleri ve hematolojik 
+sorunlarla ilgili ilaçlar için kullanılırken, turuncu reçeteler genellikle başka tür ilaçları içerir.
+
+Mor reçeteli ilaçlar, genellikle uzman hekimler tarafından yazılır ve devlet tarafından karşılanır. Bu ilaçlar, hastalıklara özel tedavilerde 
+kritik bir rol oynar ve hastaların sağlık durumlarını iyileştirmek için kullanılır. Ancak, bu ilaçların 
+kullanımıyla ilgili herhangi bir soru veya endişe durumunda, hastaların doktorlarına danışmaları önemlidir.</value>
+  </data>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>Kırmızı Reçete Nedir?
+Kırmızı Reçete, doktorlar tarafından özellikle birçok yüksek riskli ve bağımlılık yapıcı ilacı hastalara yazmak için kullanılan resmi bir belgedir. 
+Bu reçeteler genellikle kırmızı renkte basılır, bu nedenle "kırmızı reçete" terimi yaygın olarak kullanılır. Kırmızı reçeteler, ilaçların sıkı bir
+ şekilde kontrol altında tutulmasını sağlamak, yan etkileri takip etmek ve kötüye kullanımı önlemek amacıyla kullanılır.
+
+Kırmızı Reçetenin İçeriği
+Bir kırmızı reçete, aşağıdaki temel bilgileri içerir:
+
+Hasta Bilgileri:
+
+Hastanın adı, soyadı ve doğum tarihi gibi kimlik bilgilerini içerir.
+Doktor Bilgileri:
+
+İlaç yazan doktorun adı, soyadı ve hastane ya da klinik bilgilerini içerir.
+İlaç Bilgileri:
+
+İlaç adı, dozu ve formu gibi, hastanın kullanması gereken ilaç hakkında detaylı bilgiler içerir.
+Dozaj ve Kullanım Talimatları:
+
+Hangi dozda ve ne sıklıkta kullanılması gerektiği gibi kullanım talimatlarını içerir.
+Reçete Tarihi ve Geçerlilik Süresi:
+
+Reçetenin yazıldığı tarih ve geçerlilik süresi belirtilir. Kırmızı reçetelerin genellikle daha kısa bir geçerlilik süresi vardır.
+Doktorun İmzası ve Nüsha Sayısı:
+
+Doktorun reçeteyi onaylamak adına imzası ve bir veya daha fazla nüsha sayısı içerir.
+Kırmızı Reçete ile İlaç Alma
+Hasta, doktordan kırmızı reçetesini alır.
+Eczaneye gider ve reçetesini teslim eder.
+Eczacı, reçeteye yazılan ilacı hazırlar ve hastaya verir.
+Hasta, reçetede belirtilen talimatlara göre ilacını kullanır.
+Önemli Notlar
+Kırmızı Reçete ile Yazılan İlaçların Özel Kontrole Tabi Olması:
+Kırmızı reçete ile yazılan ilaçlar genellikle özel kontrol ve izleme gerektiren yüksek riskli ilaçlardır.
+
+Doktorun Talimatlarına Uyun:
+Hasta, doktorunun reçetede belirttiği talimatlara tam olarak uymalıdır. İlaç kullanımında herhangi bir şüphe durumunda doktora başvurulmalıdır.
+
+Geçerlilik Süresine Dikkat Edin:
+Kırmızı reçetelerin tarihleri ve geçerlilik süreleri önemlidir. Geçmiş tarihli veya süresi geçmiş reçetelerle ilaç almak uygun değildir.
+
+Kırmızı reçeteler, özellikle bağımlılık yapıcı ve yüksek riskli ilaçların kullanımını sıkı bir şekilde düzenlemek amacıyla kullanılır.
+ Bu nedenle, hastaların ve sağlık profesyonellerinin bu reçetelere uygun şekilde davranması, 
+güvenli ve etkili bir tedavi sürecini destekler. Unutulmamalıdır ki, herhangi bir sağlık sorununda veya 
+ilaç kullanımında doktorunuzla iletişim kurmak en doğru yaklaşımdır.</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAQAEBAAAAEAIABoBAAARgAAACAgAAABACAAqBAAAK4EAAAwMAAAAQAgAKglAABWFQAAMjIAAAEA
+        IADIBAAA/joAACgAAAAQAAAAIAAAAAEAIAAAAAAAMAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/yC/EP8jxWD/I8Vg/yC/EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/yi3IP8puJD/ML8Q/zC/EP8puJD/KLcgAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8urJAAAAAAAAAAAP8tqmD/MK8Q/y6rgAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/M56Q/zSdgAAAAAD/M59Q/zCfIP80nYAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/zmRoP84kmAAAAAAAAAAAAAAAAD/OpGAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8+hYAAAAAA/z6FgP8+hYAAAAAA/z6FgAAA
+        AAD/p+cgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/RHiAAAAAAP9FeKD/RXigAAAAAP9E
+        eID/t7cg/7W5wP+1umAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0psgAAAAAD/SGgg/0hoIAAA
+        AAD/SmyAAAAAAP/ChWAAAAAAAAAAAAAAAAAAAAAAAAAAAP+xzJD/r88QAAAAAP9QYIAAAAAA/1BgEP9Q
+        YBAAAAAA/1BggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+7n0D/u5/P/7ufgAAAAAD/VFKA/1VQMP9U
+        UnD/VFJw/1VQMP9UUoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8N0QAAAAAD/XERA/1pGgP9a
+        RH//WkR//1pEf/9aRH//WUaP/1xEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/2A5cP9g
+        OVD/YDhA/2A4QP9gOED/YDhA/2A5UP9gOXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/ZS1g/2Urn/9lLT//ZS0//2Urn/9mK18AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP9qIGD/ah5//2oef/9pIF8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//
+        AAD9vwAA+98AAPnfAAD73wAA+l8AAPpXAAD73wAA298AAMvfAAD73wAA//8AAP2/AAD//wAA//8AACgA
+        AAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/yXCYP8k
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        //////////w////zz///5+f//+/3///vt///x7P//8Pz///H8///x/P//8/z///MM///zbO//8wzH//P
+        87//z/P/+8/z//vP8//gznP/+8gT//vAA///v/3//7/9//+AAf//5+f///fv///wH///////////////
+        //8oAAAAMAAAAGAAAAABACAAAAAAAFAlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/yC/EP8j
+        wlD/JMOA/yTDgP8jwlD/IL8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8o
+        vyD/JcHA/yXA//8lwP//JcD//yXA//8lwP//JcD//yXBwP8ovyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/yi9YP8nvP//J7zv/ya9f/8lujAAAAAAAAAAAP8lujD/Jr1//ye87/8nvP//KL1gAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/KLdg/yi4//8nuK//ML8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/zC/EP8o
+        uL//KLj//yi3YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8wrxD/KrLw/ymzvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/KrPQ/yqy8P8wrxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8tr6D/LK///zCvIAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/MK8g/yyv//8tr6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8uq+D/LqugAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8wq0D/Lqtw/zCvEAAAAAAAAAAA/y6roP8uq+AAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/zCnIP8w
+        p///MKfA/zCnQAAAAAAAAAAAAAAAAAAAAAAAAAAA/zCnIP8wp///MKf//zCmkAAAAAAAAAAA/zCnYP8w
+        p///MKcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/zSjQP8yov//MqL//zKi//8yomAAAAAAAAAAAAAAAAAAAAAA/zCfIP8yov//MqL//zKhkAAA
+        AAAAAAAA/zSjQP8yov//NKNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/zSfQP8znv//NJ9A/zOesP8znvAAAAAAAAAAAAAAAAAAAAAAAAAAAP81
+        nzD/M59v/zCfIAAAAAAAAAAA/zSfQP8znv//NJ9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/zSbQP81mv//NJtA/zSbQP81mv//NJtAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/zSbQP81mv//NJtAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9g
+        OGD/Xzj//2A4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/YDhA/184//9gOVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP9gMBD/YTTP/2E0//9hNMD/YTTA/2E0wP9hNMD/YTTA/2E0wP9hNMD/YTTA/2E0wP9h
+        NMD/YTTA/2E0wP9hNMD/YTTA/2E0wP9hNMD/YTT//2E0zwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/YDAQ/2Iwf/9jML//YzDv/2Mw7/9jML//YzC//2Mwv/9j
+        ML//YzC//2Mwv/9jML//YzC//2Mwv/9jML//YzDv/2Mw7/9jML//YzBv/2AwEAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/ZC2g/2Us4AAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/ZSzw/2UskAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/aChA/2Yn//9mJqD/YCAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/2AgEP9mJqD/Zif//2goQAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/2kicP9oI///aCP//2gj//9oI///aCP//2gj//9oI///aCP//2gj//9o
+        I///aSJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9oICD/ah5v/2oef/9qHn//ah5//2oef/9q
+        Hn//ah5//2oeb/9oICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////////AAD///////8AAP///////wAA////////AAD///5///8AAP//
+        8A///wAA///n5///AAD//8/z//8AAP//n/n//wAA//8//P//AAD//z/8//8AAP//P47//wAA//8fjv//
+        AAD//0/+//8AAP//b/7//wAA//9P/v//AAD//w/+//8AAP//P/7//wAA//9//v//AAD//3w+//8AAP//
+        eZ79/wAA//95nvn/AAD//3me8P8AAP//fD7gfwAA//9+fvn/AAD//3/+/f8AAP//f/7//wAA/39//v//
+        AAD+f3/+//8AAP4/fn7//wAA+A9+fv//AAD8H3JO//8AAP5/ck7//wAA/34AAH//AAD//P//P/8AAP/9
+        //+//wAA//n//5//AAD//f//v/8AAP/8AAA//wAA//8AAP//AAD//5/5//8AAP//z/P//wAA///gB///
+        AAD///////8AAP///////wAA////////AAD///////8AAP///////wAAiVBORw0KGgoAAAANSUhEUgAA
+        ADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAABH9JREFUaEPtmV9PHGUUxvkIfAAvNpUCQYvT
+        P1Ystky0LbVV3CC12JI6lmqpISkXGLkw8U20wUQNJFppYhM2wca2sd0lDV1Byiwaot6Il70wYb/Bzjd4
+        PM9yWHeYXdnSYWdN9pc8ec857zkn79nZ3Zc/DXXq1Kk+sWHYT11GVzlpWu2y6zJGRDkRtlBu1we4omW1
+        RfP7iDdfAlqGkKHdOgS7lLiXz5Fc2lpeO7S9h79EWXW3hLmiVXWjx7oIu/0CPmkfBPYMws3bFSifKzV5
+        +90IPzeWg8b9g1jdfwEIRdKLPbV99ehwkHjBAWR1RPYTytFeCW1fPTrPI3voPDLqPjHSLyVaU7d6dA0A
+        RwbCG8QeQII91a0er5xDSpSz+xHT0LZhD/ZiTw2Fz9gKMmO/BQ977Cys7rfhiRCSPPbU9uFy1YU1ngHG
+        XTga8nFCXslTZ5AS4WQ/MhuiL/LU9jbZgVyu7KVtw2XCReO3S3CvPQREuWsylG75iL8F88Zp/3ubfs/p
+        9c8P12K7VC57qBse02nEZn5GcmYBORE2yb254B+orw/mzT7/4ej39q0fnmuxXSqXPdQNj2QSjbMPMJlK
+        IzubBorkiRLc19Q8/b0wZ3rLf9vIfoZSNwBr2UPd8HHlwMv3kcncB0RZ8Uu+hwfiMOfi5Qc5G4dDqRuA
+        teyh7s6wmoT1ZwqQtexBnB6Yd3rKD7IVrGUPdXeOv39Eaq3M0yAX5RCDr29/ENayh7rRMfQazKVT2x+E
+        teyhro8PV2CVusN2hOGTMMOvbn8Q1rKHuj7kDvPkDqvOD5IjJ2BGuksPMnIccdlL5iW2hn2wlj3ULTDl
+        IjYld9j1xSr98jV6HEYUGGS0GyOMjx5DNi/aEtPtAvm49FC34Y7cU7fmkRNhk3Z2oLGjMKLAIIyJCvcH
+        7Y+OIqduAc0rDMKv/fQcTPoBEj/NASJPNCmxst+cofDxyzCiwCCMcU/divOK+X0W+GO2/GUaKsaGEQUO
+        KLGsaE1kq2gH/jghMYhKDvLoHlKP7gbfjjvCp3KIz7qCg1y1YUnc457KY0y3C3CPPdSNjvEjMJ8fDg5C
+        Jmw0jh+GQ9HWsA/Wsoe60fHFSzBfdgJfdWJiouPxLy/Wsoe60TFxCGbyRUCVE/+xfstjHXuoGx1fd8B8
+        0wFMydOQ1RO5ulURrGUPdaNj6iDM9YPrn5Fiu1KYzzp1o+O7AzA3Dqwf/sbzSGzYlcJ89lA3Oqb3wST2
+        AaJpruJP6pYPiWd033cvaCz6QWbkEN/vBaibZYb4wUJsI2dmr/+mzsdqYZA7FpzbzwFyWFtDJbndjgzz
+        bln/PhGptRhjDw1FR1Je7bt7gHvPln4a/wVrWMseGoqW2WeQEuWSrZUfiLlSA9ZqKHrScqi5NniiVXl1
+        t/wfB3OYyxrWarg2WGiFM98KzLdgdaGt/O0uB7eZw1zWaLi2WGxG/GEzPBGWdsNdbMGVpSZ0UbQlnuQe
+        c5irZbWJG0Pj8tOY/KUJ2eUmoFgaM8zR9P8HK7th/doEm6Kt4Tp16lSdhoZ/AHTsRpbiJI15AAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+</root>

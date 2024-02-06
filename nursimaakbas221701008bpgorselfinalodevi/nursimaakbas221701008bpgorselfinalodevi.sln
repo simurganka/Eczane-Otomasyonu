@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nursimaakbas221701008bpgorselfinalodevi", "nursimaakbas221701008bpgorselfinalodevi\nursimaakbas221701008bpgorselfinalodevi.csproj", "{B7088284-BC8D-4E5D-8D93-46D401B78A69}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EczanSetup", "EczanSetup\EczanSetup.vdproj", "{EBC6CF05-2604-4C19-9BAA-D2267F8A1F1B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EczaneSetup", "EczaneSetup\EczaneSetup.vdproj", "{A46CDD34-E2DF-4F12-81BF-E29406D670B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7088284-BC8D-4E5D-8D93-46D401B78A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7088284-BC8D-4E5D-8D93-46D401B78A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7088284-BC8D-4E5D-8D93-46D401B78A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7088284-BC8D-4E5D-8D93-46D401B78A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC6CF05-2604-4C19-9BAA-D2267F8A1F1B}.Debug|Any CPU.ActiveCfg = Debug
+		{EBC6CF05-2604-4C19-9BAA-D2267F8A1F1B}.Release|Any CPU.ActiveCfg = Release
+		{A46CDD34-E2DF-4F12-81BF-E29406D670B5}.Debug|Any CPU.ActiveCfg = Debug
+		{A46CDD34-E2DF-4F12-81BF-E29406D670B5}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7F9CC2C-3639-48C1-B912-9154D30AFD90}
+	EndGlobalSection
+EndGlobal
